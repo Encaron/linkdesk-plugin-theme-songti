@@ -1,5 +1,5 @@
 {
-  "$schema": "../../../../public/schemas/theme.schema.json",
+  "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/theme.schema.json",
   "id": "songti-print",
   "name": "宋体印刷体 Songti Print",
   "type": "light",
