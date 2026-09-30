@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-09-30T20:49:49.141Z",
+  "updatedAt": "2026-09-30T22:00:16.296Z",
   "plugins": [
     {
       "id": "theme-songti",
       "name": "宋体印刷体",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "description": "极限壳主题——font 域·字族轴：全 UI 宋体 SimSun + 纸白墨黑文档感（#50.27 效果验收端到端裁决，gallery ⑩ 壳真实落地）",
       "author": {
         "name": "LinkDesk"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-songti/v1.0.7/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-songti/v1.0.8/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-songti/v1.0.7/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-songti/releases/download/v1.0.7/theme-songti.linkdesk-plugin",
-      "size": 7471,
-      "publishedAt": "2026-09-30T20:49:49.141Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-songti/v1.0.8/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-songti/releases/download/v1.0.8/theme-songti.linkdesk-plugin",
+      "size": 6900,
+      "publishedAt": "2026-09-30T22:00:16.296Z",
       "versions": [
+        {
+          "version": "1.0.8",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-songti/releases/download/v1.0.8/theme-songti.linkdesk-plugin",
+          "publishedAt": "2026-09-30T22:00:16.296Z",
+          "changelog": "- **安装包瘦身**：包内更新日志只带最近 5 版（更早的更新记录仍在本插件仓库里）——由 SDK 自动施加，用户无需任何操作。"
+        },
         {
           "version": "1.0.7",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-songti/releases/download/v1.0.7/theme-songti.linkdesk-plugin",
@@ -44,14 +50,12 @@
         {
           "version": "1.0.3",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-songti/releases/download/v1.0.3/theme-songti.linkdesk-plugin",
-          "publishedAt": "2026-09-14T17:31:22.668Z",
-          "changelog": "- 配方 `$schema` 改**文档唯一认可的写法**（`./node_modules/@linkdesk/plugin-sdk/schemas/theme.schema.json`，相对工程根）——原来用的是已作废的越界相对路径（`../..` 一路指到壳仓 `public/schemas/`，脱离壳仓后编辑器的补全与校验全失效）\n- 分发件随包带 **MIT 许可证**（`LICENSE`）——MIT 要求副本里带版权声明，而 zip 才是用户真正拿到的那份\n- 新增 `AGENTS.md`：在这个仓里单开 AI 干活时的进场说明（这只插件是什么 / 规矩在哪 / 命令怎么敲）"
+          "publishedAt": "2026-09-14T17:31:22.668Z"
         },
         {
           "version": "1.0.2",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-songti/releases/download/v1.0.2/theme-songti.linkdesk-plugin",
-          "publishedAt": "2026-09-14T02:37:26.780Z",
-          "changelog": "- 源码迁入独立仓（E6#99，L7 第 7.2 轮）——从壳仓 `Encaron/linkdesk` 抽出本插件子树，历史全保（hash 变）\n- 随包 `plugin.json` 显式声明 `pluginId`（E6#98g）：插件身份不再靠目录名兜底，独立仓构建出的包名与身份稳定\n- `$schema` 改指本仓 `node_modules/@linkdesk/plugin-sdk`（脱离壳仓后原相对路径指到仓外，编辑器补全/校验会失效）"
+          "publishedAt": "2026-09-14T02:37:26.780Z"
         }
       ]
     }
