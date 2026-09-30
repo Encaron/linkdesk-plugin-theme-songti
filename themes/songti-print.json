@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/theme.schema.json",
   "id": "theme-songti.songti-print",
-  "name": "宋体印刷体 Songti Print",
+  "name": "宋体印刷体",
   "type": "light",
   "appearance": {
     "font": {
